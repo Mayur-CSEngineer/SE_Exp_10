@@ -1,5 +1,9 @@
 class Main{
 	public static void main(String[] args) {
-		System.out.println("Mayur Ingale")	
+		System.out.println("Author : Mayur Ingale");
+		System.out.println(add_number(5,6));
+	}
+	public static int add_number(int a,int b){
+		return a+b;
 	}
 }
